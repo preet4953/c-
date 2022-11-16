@@ -1,0 +1,13 @@
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.exe
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.deps.json
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.json
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.dev.json
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.dll
+F:\Class\HarryScanlan\Lab3\bin\Debug\netcoreapp3.1\Lab3.pdb
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.AssemblyReference.cache
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfoInputs.cache
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfo.cs
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.CoreCompileInputs.cache
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.dll
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.pdb
+F:\Class\HarryScanlan\Lab3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache

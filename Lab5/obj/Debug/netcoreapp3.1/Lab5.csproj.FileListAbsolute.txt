@@ -1,0 +1,13 @@
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.exe
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.deps.json
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.json
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.dev.json
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.dll
+F:\Class\HarryScanlan\Lab5\bin\Debug\netcoreapp3.1\Lab5.pdb
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.AssemblyReference.cache
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfoInputs.cache
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfo.cs
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompileInputs.cache
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
+F:\Class\HarryScanlan\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache

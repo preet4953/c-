@@ -1,0 +1,13 @@
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.exe
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.deps.json
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.runtimeconfig.json
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.runtimeconfig.dev.json
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.dll
+F:\Class\HarryScanlan\MidTerm\bin\Debug\netcoreapp3.1\MidTerm.pdb
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.csproj.AssemblyReference.cache
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.AssemblyInfoInputs.cache
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.AssemblyInfo.cs
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.csproj.CoreCompileInputs.cache
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.dll
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.pdb
+F:\Class\HarryScanlan\MidTerm\obj\Debug\netcoreapp3.1\MidTerm.genruntimeconfig.cache

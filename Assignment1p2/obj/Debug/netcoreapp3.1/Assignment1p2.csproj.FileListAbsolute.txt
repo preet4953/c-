@@ -1,0 +1,13 @@
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.exe
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.deps.json
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.runtimeconfig.json
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.runtimeconfig.dev.json
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.dll
+F:\Class\HarryScanlan\Assignment1p2\bin\Debug\netcoreapp3.1\Assignment1p2.pdb
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.csproj.AssemblyReference.cache
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.AssemblyInfoInputs.cache
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.AssemblyInfo.cs
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.csproj.CoreCompileInputs.cache
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.dll
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.pdb
+F:\Class\HarryScanlan\Assignment1p2\obj\Debug\netcoreapp3.1\Assignment1p2.genruntimeconfig.cache

@@ -1,0 +1,181 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="650"  >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+
+        </Grid.RowDefinitions>
+        <!--- Border area-->
+        <Border BorderThickness="1" Margin="4,0,0,0" BorderBrush="Black" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="9" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}"/>
+
+        <!--Top label-->
+        <Label Grid.Column="3" Grid.ColumnSpan="5" FontSize="20" HorizontalAlignment="Center">Seat Reservation System</Label>
+
+
+
+        <!--- Buttons Row D-->
+        <Label VerticalAlignment="center" HorizontalAlignment="Center" Grid.Row="2">D</Label>
+        <Button x:Name="D1" Grid.Row="2" Grid.Column="1" Height="47" Width="56" Click="D1_Click" FontSize="15" Background="LimeGreen">1</Button>
+        <Button x:Name="D2" Grid.Row="2" Grid.Column="2" Height="47" Width="56" Click="D2_Click" FontSize="15" Background="LimeGreen">2</Button>
+        <Button x:Name="D3" Grid.Row="2" Grid.Column="3" Height="47" Width="56" Click="D3_Click" FontSize="15" Background="LimeGreen">3</Button>
+        <Button x:Name="D4" Grid.Row="2" Grid.Column="4" Height="47" Width="56" Click="D4_Click" FontSize="15" Background="LimeGreen">4</Button>
+
+        <!--- Buttons Row C-->
+
+        <Label VerticalAlignment="center" HorizontalAlignment="Center" Grid.Row="3">C</Label>
+        <Button x:Name="C1" Grid.Row="3" Grid.Column="1" Height="47" Width="56" Click="C1_Click" FontSize="15" Background="LimeGreen">1</Button>
+        <Button x:Name="C2" Grid.Row="3" Grid.Column="2" Height="47" Width="56" Click="C2_Click" FontSize="15" Background="LimeGreen">2</Button>
+        <Button x:Name="C3" Grid.Row="3" Grid.Column="3" Height="47" Width="56" Click="C3_Click" FontSize="15" Background="LimeGreen">3</Button>
+        <Button x:Name="C4" Grid.Row="3" Grid.Column="4" Height="47" Width="56" Click="C4_Click" FontSize="15" Background="LimeGreen">4</Button>
+
+        <!--- Buttons Row B-->
+
+        <Label VerticalAlignment="center" HorizontalAlignment="Center" Grid.Row="4">B</Label>
+        <Button x:Name="B1" Grid.Row="4" Grid.Column="1" Height="47" Width="56" Click="B1_Click" FontSize="15" Background="LimeGreen">1</Button>
+        <Button x:Name="B2" Grid.Row="4" Grid.Column="2" Height="47" Width="56" Click="B2_Click" FontSize="15" Background="LimeGreen">2</Button>
+        <Button x:Name="B3" Grid.Row="4" Grid.Column="3" Height="47" Width="56" Click="B3_Click" FontSize="15" Background="LimeGreen">3</Button>
+        <Button x:Name="B4" Grid.Row="4" Grid.Column="4" Height="47" Width="56" Click="B4_Click" FontSize="15" Background="LimeGreen">4</Button>
+
+        <!--- Buttons Row A-->
+
+        <Label VerticalAlignment="center" HorizontalAlignment="Center" Grid.Row="5">A</Label>
+        <Button x:Name="A1" Grid.Row="5" Grid.Column="1" Height="47" Width="56" Click="A1_Click" FontSize="15" Background="LimeGreen">1</Button>
+        <Button x:Name="A2" Grid.Row="5" Grid.Column="2" Height="47" Width="56" Click="A2_Click" FontSize="15" Background="LimeGreen">2</Button>
+        <Button x:Name="A3" Grid.Row="5" Grid.Column="3" Height="47" Width="56" Click="A3_Click" FontSize="15" Background="LimeGreen">3</Button>
+        <Button x:Name="A4" Grid.Row="5" Grid.Column="4" Height="47" Width="56" Click="A4_Click" FontSize="15" Background="LimeGreen">4</Button>
+
+        
+        <!--Master Reset button-->
+        <Button x:Name="Reset" Grid.Row="0" Grid.Column="0" Height="40" Width="110" FontSize="15" Grid.ColumnSpan="2" Background="Red" Click="Reset_Click">Master Reset</Button>
+        
+        
+
+        <!--Name and Text input-->
+        <Label VerticalAlignment="center" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Left">Name</Label>
+        <TextBox x:Name="UserInput"  VerticalAlignment="Center" Grid.Column="2" Grid.Row="7" Grid.ColumnSpan="3" Height="20" >
+        </TextBox>
+
+
+        <!--Seat and Number label -->
+        <Label VerticalAlignment="center" Grid.Column="1" Grid.Row="8" Margin="2,0,0,0"  Grid.ColumnSpan="2">Seat Number :-</Label>
+        <TextBox x:Name="SeatNumberDisplay" IsReadOnly="True" BorderThickness="0" VerticalAlignment="center" Grid.Column="3" Grid.Row="8" Height="20" Width="22" FontSize="15" FontWeight="DemiBold" Background="Transparent"></TextBox>
+
+        <!--Confirm Button-->
+        <Button x:Name="Confirm" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" Height="30" Click="Confirm_Click">
+            Confirm
+        </Button>
+
+
+
+        <!--Right side Control-->
+
+        <!---<Border BorderThickness="1" Margin="0,0,4,0" BorderBrush="black" Grid.Row="1"  Grid.Column="6" Grid.ColumnSpan="5" Grid.RowSpan="9" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}"/> -->
+        <Label Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="17">Customer List</Label>
+        
+        
+        
+        <!--Name Seat Text-->
+        <ListView  x:Name="Textprint"  Margin="10,0,0,0"  Grid.Column="5" Grid.Row="2" Grid.RowSpan="6" Grid.ColumnSpan="4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding CustomerName}" Width="105"/>
+                    <GridViewColumn Header="Seat Number" DisplayMemberBinding="{Binding SeatNumber}" Width="105"/>
+                    
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+
+
+
+
+        <!--Search and Delete-->
+        <Label VerticalAlignment="center" Grid.Column="6" Grid.Row="8" HorizontalAlignment="Left">Search</Label>
+
+        <TextBox x:Name="SearchInput" Margin="0,0,5,0" Height="20" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="2"></TextBox>
+
+        <Button x:Name="Delete" Grid.Row="9" Grid.Column="7" Grid.ColumnSpan="1" Height="30" Width="45" Background="OrangeRed" Margin="0,0,4,0" Click="Delete_Click">
+            Delete
+        </Button>
+
+        <!--Button Z to A
+        <Button x:Name="SortReverse" Grid.Column="7" Grid.Row="9" Width="40" Height="30" Click="SortReverse_Click">Z-a</Button>
+        -->
+        <!--Button Length Based Sort
+        <Button x:Name="LengthBased" Grid.Column="8" Grid.Row="9" Width="80" Height="30" Grid.ColumnSpan="2" Click="LengthBased_Click">Name Length</Button>
+          -->
+        <!--Button Seats Available
+        <Button x:Name="SeatsAvailable" Grid.Column="10" Grid.Row="9" Width="51" Margin="0,0,5,0" Height="30" Background="Lime" Click="SeatsAvailable_Click">Available</Button>
+        -->
+        <Menu  Grid.Row="1" Grid.Column="8" Width="40" Height="34" Margin="0,15" Padding="1">
+            <MenuItem Background="LightGray" Header="Sort▼" Padding="5,0,1,2" Width="40" Height="20" FontSize="11">
+                <MenuItem Header="Reverse" Click="MenuItem_Reverse"></MenuItem>
+                <MenuItem Header="Length" Click="MenuItem_Length"></MenuItem>
+                <MenuItem Header="Available" Click="MenuItem_Available"></MenuItem>
+            </MenuItem>
+            
+        </Menu>
+
+        <ListView  x:Name="Seat_Avalilable_List_view" HorizontalAlignment="Center"  Margin="0,0,0,0"  Grid.Column="9" Grid.Row="2" Grid.RowSpan="6" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    
+                    <GridViewColumn Header="AvaialbleSeats" DisplayMemberBinding="{Binding BindingGroupName=Button }" Width="100"/>
+
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+
+
+        <!-- Seat color meanings-->
+        <Label VerticalAlignment="center" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" >Available</Label>
+        <Border Grid.Row="10" Grid.Column="1" Background="limegreen" Height="20" Width="20" HorizontalAlignment="Left"/>
+
+        <Label VerticalAlignment="center" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Left">Selected</Label>
+        <Border Grid.Row="10" Grid.Column="3" Background="Red" Height="20" Width="20" HorizontalAlignment="Left"/>
+
+
+        <Label VerticalAlignment="center" Grid.Column="4" Grid.Row="10" HorizontalAlignment="Left">Reserved</Label>
+        <Button Grid.Row="10" Grid.Column="5" IsEnabled="false" Height="20" Width="20" HorizontalAlignment="Left"/>
+        
+        
+        <!--Save and load-->
+        <Button x:Name="Save" Grid.Row="10"  Grid.Column="7" Height="30" Width="50" Background="Gray" Foreground="white" Click="Save_Click">Save</Button>
+        <Button x:Name="Load" Grid.Row="10" Grid.Column="8" Height="30" Width="50" Background="DarkSlateGray" Foreground="white" Click="Load_Click">Load</Button>
+
+    </Grid>
+
+</Window>

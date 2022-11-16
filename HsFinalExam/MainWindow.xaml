@@ -1,0 +1,85 @@
+﻿<Window x:Class="HsFinalExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HsFinalExam"
+        mc:Ignorable="d"
+        Closing="Show_Warning"
+        Title="MainWindow" Height="450" Width="850" ResizeMode="NoResize" Background="Silver">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" >Available items</Label>
+
+        <!--Available items-->
+        <ListView  x:Name="PrintList"  Margin="10,0,0,0"  Grid.Column="0" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="4" SelectionChanged="Item_Selection"  Background="LightGray">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Number" DisplayMemberBinding="{Binding ItemNumber}" Width="49"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding ItemName}" Width="120" />
+                    <GridViewColumn Header="Price($Cad)" DisplayMemberBinding="{Binding Cost}" Width="63"/>
+
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+        
+        
+        <!--Order Label-->
+        <Label x:Name="OrderListLabel" Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="18" >OrderList</Label>
+        <!--Order Summary-->
+        <ListView  x:Name="OrderList"  Margin="10,0,10,0"  Grid.Column="4" Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="9" Background="LightGray">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ItemName" DisplayMemberBinding="{Binding OrderName}" Width="100"/>
+                    <GridViewColumn Header="Item" DisplayMemberBinding="{Binding ItemName}" Width="110" />
+                    <GridViewColumn Header="Price($Cad)" DisplayMemberBinding="{Binding Cost}" Width="80"/>
+                    <GridViewColumn Header="HomeDelivery" DisplayMemberBinding="{Binding HomeDelivery}" Width="80"/>
+                    <GridViewColumn Header="Shipping($)" DisplayMemberBinding="{Binding ShippingPrice}" Width="80"/>
+                    <GridViewColumn Header="Total($Cad)" DisplayMemberBinding="{Binding Total}" Width="83"/>
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+
+         <!--OrderTotal-->
+        <Label Grid.Column="9" Grid.Row="7" FontSize="18" HorizontalAlignment="center">Total:-</Label>
+        <Label x:Name="Total_label" Grid.Column="10" Grid.Row="7" FontSize="18" HorizontalAlignment="Left">$</Label>
+
+
+        <!--Save and load-->
+        <Button x:Name="Save" Grid.Row="7"  Grid.Column="7" Height="30" Width="50" Background="Gray" Foreground="white" Click="Save_Click">Save</Button>
+        <Button x:Name="Load" Grid.Row="7" Grid.Column="8" Height="30" Width="50" Background="DarkSlateGray" Foreground="white" Click="Load_Click">Load</Button>
+         <!--Info Button-->
+        <Button Width="50" Height="30" Background="RoyalBlue" Foreground="white" Click="Info_click">Info</Button>
+        <!--Linq-->
+        <Button x:Name="Linq" Height="30" Width="50" Grid.Column="6" Grid.Row="7" Background="brown" Foreground="white" Click="Linq_Click">Linq</Button>    
+    </Grid>
+</Window>

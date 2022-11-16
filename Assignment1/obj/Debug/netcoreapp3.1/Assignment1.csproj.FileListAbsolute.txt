@@ -1,0 +1,13 @@
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.dev.json
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.dll
+F:\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.pdb
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
+F:\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.AssemblyReference.cache
